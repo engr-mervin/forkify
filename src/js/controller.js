@@ -134,7 +134,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   searchView.addHandlerSearch(controlSearchResults);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log('Welcome!');
+  console.log('Welcome to the Forkify Application! -Mervin');
   newFeature();
 };
 
