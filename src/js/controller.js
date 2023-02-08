@@ -135,6 +135,11 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   addRecipeView.addHandlerUpload(controlAddRecipe);
   console.log('Welcome!');
+  newFeature();
 };
 
 init();
+
+const newFeature = function () {
+  console.log('Welcome to the application!');
+};
